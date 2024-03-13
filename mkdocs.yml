@@ -1,0 +1,6 @@
+site_name: PDF Parse Kit
+site_url: https://pdfparsekit.com/
+nav:
+    - Home: 'index.md'
+    - Core: 'core/doc.md'
+    - CLI: 'cli/doc.md'

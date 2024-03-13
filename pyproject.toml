@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pdfparsekit"
+version = "0.1.0"
+description = "A tool to parse pdf files"
+authors = ["NBGamer99 <nabouziyasser80@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pdfplumber = "^0.10.3"
+mkdocs = "^1.5.3"
+pytest-cov = "^4.1.0"
+
+[tool.poetry.scripts]
+pdfparsekit = "pdfparsekit.cli.pdf_parser_cli:cli_parser"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
