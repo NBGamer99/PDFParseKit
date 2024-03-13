@@ -41,4 +41,3 @@ After you have installed the project, you can run the following command to see t
 ```bash
 mkdocs serve
 ```
-
