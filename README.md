@@ -1,5 +1,3 @@
-# Data Internship Onboarding PFE 2024
-
 # PDFParseKit
 
 PDFParseKit is a python library for parsing PDF files. It is a wrapper around the pdfplumber library. It is designed to be used in python projects to extract text and tables from PDF files.
