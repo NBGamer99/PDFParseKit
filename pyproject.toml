@@ -6,7 +6,7 @@ authors = ["NBGamer99 <nabouziyasser80@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 pdfplumber = "^0.10.3"
 mkdocs = "^1.5.3"
 pytest-cov = "^4.1.0"
